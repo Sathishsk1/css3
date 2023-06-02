@@ -1,0 +1,91 @@
+@media(max-width:768px){
+    *{
+        line-height: 1.4;
+    }
+    body{
+        line-height: 1;
+    }
+    header{
+        display: none;
+    }
+    .logo, .text{
+        padding: 5px;
+        width: 100%;
+        height: fit-content;
+    }
+    .home{
+        width:100%;
+        padding:10px;
+        min-height: fit-content;
+        max-height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .homepage{
+        flex-direction: column;
+    }
+    .padding{
+        padding: 5px;
+    }
+    .home>h1{
+        font-size: 2em;
+    }
+
+    .home>p{
+        font-size: 1.2em;
+        line-height: 1.2;
+    }
+    .home-button{
+        text-align: center;
+    }
+    .collections{
+        flex-flow: row wrap;
+        flex-direction: column;
+      }
+      .card{
+        flex-direction: column;
+        width: 100%;
+      }
+      .item-card{
+        width: 100%;
+      }
+      .item-card>.card>img{
+        width: 100%;
+        height: 200px;
+      }
+      .create-description{
+        flex-direction: column;
+      }
+      .create-description div{
+        width: 100%;
+      }
+      .create-description section{
+        display: none;
+      }
+      .createNTF{
+        flex-direction: column;
+      }
+      .market-items{
+        flex-direction: column;
+      }
+      .market-items ul li{
+        width: 100%;
+      }
+      .item-card .card{
+        min-width: fit-content;
+      }
+}
+@media(min-width:769px) and (max-width:1200px){
+    .createNTF{
+        flex-direction: column;
+      }
+      .market-items{
+        flex-direction: column;
+      }
+      .market-items ul li{
+        width: 100%;
+      }
+      .item-card .card{
+        min-width: fit-content;
+      }
+}

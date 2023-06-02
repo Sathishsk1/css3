@@ -1,0 +1,12 @@
+/*mobile version*/
+@media(max-width:768px){
+    .container>.item{
+        width: 100%;
+    }
+}
+/*tablet version*/
+@media(min-width:769px) and (max-widtgh:1200px){
+    .container>.item{
+        width: 46%;
+    }
+} 

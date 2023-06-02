@@ -1,0 +1,53 @@
+@media(max-width:768px){
+header{
+    background-color: brown;
+    padding: 20px;
+
+}
+header>nav{
+    text-align: center;
+
+}
+header>nav>ul{
+    float: none;
+}
+header>nav>ul>li{
+    display: block;
+}
+.banner2{
+    background-image: url(../images/mobile.webp);
+}
+.banner3{
+    background: linear-gradient(45deg rgb(4, 131, 228), teal);
+}
+
+}
+/*tablet vesrsion*/
+
+@media(min-width:769px) and (max-width:1200px){
+
+    header{
+        background-color: rgb(203, 18, 216);
+        padding: 20px;
+    
+    }
+    header>nav{
+        text-align: center;
+    
+    }
+    header>nav>ul{
+        float: none;
+    }
+    .banner2{
+        background-image: url(../images/apple-iphone-smartphone-desk.jpg);
+    }
+    .banner3{
+        background: linear-gradient(to left rgb(4, 131, 228), teal);
+
+        
+}
+}
+
+
+    
+

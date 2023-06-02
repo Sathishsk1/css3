@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+    background: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: azure;
+}
+.logo li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 600px;
+
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.contact{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+}

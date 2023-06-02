@@ -1,0 +1,65 @@
+@media(max-width:992px){
+    [class*="col"]{
+        width: 100px;
+    }
+    .iocns{text-align: left;}
+    .iocns{margin: auto 0px;}
+
+        /*navigation*/
+        header>nav{text-align: center;}
+        header>nav>ul{float: none;}
+        header>nav>ul>li{display: block;}
+}
+
+@media(min-width:993px) and (max-idth:1200px){
+    /*grid*/
+ .colTab1{width: 8.33%;}
+.colTab2{width: 16.66%;}
+.colTab3{width: 25%;}
+.colTab4{width: 33.33%;}
+.colTab5{width: 41.66%;}
+.colTab6{width: 50%;}
+.colTab7{width: 58.33%;}
+.colTab8{width: 66.66%;}
+.colTab9{width: 75%;}
+.colTab10{width: 83.33%;}
+.colTab11{width: 91.66%;}
+.colTab12{width: 100%;}
+
+[class*="col"]{
+    float: left;
+    padding:10px;
+}
+.icons{text-align: left;}
+/*navigation*/
+header>nav{text-align: center;}
+header>nav>ul{float: none;}
+header>nav>ul>li{display: none;}
+
+}
+
+/*bannercode*/
+.desktop-banner, .table-banner{display: none;}
+.mobile-banner{
+    display: block;
+    overflow: hidden;
+
+}
+.mobile-banner>div>p>span, .mobile-banner>div>h1>span{
+    color: #f8bf0d;
+}
+.mobile-banner>div>h1 { font-size: 55px;}
+.mobile-banner>div>button{
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+.mobile-banner>div>button:hover{background-color: #f8bf0d;}
+.mobile-banner, .mobile-banner{display: none;}
+
+

@@ -1,0 +1,77 @@
+.commonanimation{
+    padding: 30px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 300px;
+}
+.commonanimation>h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.animation1{
+    background: black;
+    animation: bepractical 10s infinite;
+
+}
+@keyframes bepractical{
+    from{background: red;}
+    to{background: rgb(65, 65, 249);}
+        
+}
+.animation1{
+    background-size: 100%;
+    animation: animation_image 10s infinite;
+}
+@keyframes animation_image { 
+    from{background:url(../images/sat1.jpeg)no-repeat top; color: red;}
+    to{background:url(../images/sat1.jpeg) no-repeat bottom; color: rgb(131, 158, 42);}
+        
+
+}
+.animation3{
+    background: rgb(234, 0, 78);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    color: whitesmoke;
+    position: absolute;
+    animation: cssanimation3 10s infinite;
+}
+@keyframes cssanimation3{
+   0%{
+    top: 0px;
+    left: 600px;
+    background: rgb(220, 25, 191);
+    color: #201f1f;
+
+   }
+   25%{
+    top: 0px;
+    left: 0px;
+    background: rgb(53, 154, 255);
+    color: #ff0000;
+}
+50%{
+    top: 0px;
+    left: 40px;
+    background: rgb(55, 239, 76);
+    color: #1ca0c9;
+}
+   75%{
+
+    top: 400px;
+    left: 0px;
+    background: rgb(239, 190, 44);
+    color: #66ca14;
+}
+100%{
+    top: 0px;
+    left: 0px;
+    background: rgb(220, 25, 191);
+    color: #101010;
+}
+}
+

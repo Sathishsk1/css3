@@ -1,0 +1,36 @@
+.fa-square-youtube{
+    color: rgb(181, 189, 174);
+    transition: 1s;
+
+}
+.fa-square-youtube:hover{
+    color: rgb(120, 120, 113);
+}
+
+.tooltip{
+    position: relative;
+}
+.tooltip>span{
+background: rgb(120, 120, 113) ;
+color: white;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 6px 8px rgb(209, 131, 131);
+position: absolute;
+top: 10px;
+left: 100px;
+display: none;
+
+}
+.tooltip:hover span{
+    display: block;
+}
+.tooltip>span::before{
+    content: "";
+    border: 10px;
+    border-style: solid;
+    border-style: solid;
+    border-color: transparent grey transparent transparent;
+    position: absolute;
+    left: -19px; 
+}

@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Mukta:wght@300&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #000;
+}
+.logo{
+    background: url(../img/banner-bg.jpg);
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+header>img{
+    padding: 10px;
+    height: 100px;
+}
+.home>ul>li{
+   display: inline-block;
+   padding: 20px;
+ 
+  border-radius: 50px;
+   transition: all 0.3s ease 0s;
+   
+    
+}
+.home>ul>.action>a{
+    background-color: rgb(181, 62, 255);
+    border-radius: 30px;
+    color: white;
+    padding: 12px;
+    color: black;
+}
+
+.home>ul>li a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+}
+.home>ul>li>a:hover{
+    padding: 13px;
+    background: rgb(181, 62, 255);
+    border-radius: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+.text{
+    margin-left: 10%;
+    margin-top: 10%;
+    width:50%;
+    color:white;
+    line-height: 1.6;
+}
+
+.text>h1{
+    font-size: 2.5em;
+    width: 70%;
+   
+}
+.text>p{
+    font-size: 1em;
+    width: 70%;
+    letter-spacing: 1px;
+}
+.home-button>button{
+    border: none;
+    padding:20px 25px;
+    font-size: 14px;
+    border-radius: 50px;
+    margin: 28px;
+    margin-left: 0;
+    background:#5028ed;
+    color: white;
+    box-shadow: 0px 10px 10px 3rgba(0, 0, 0, 0.79);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    overflow: hidden;
+}
+.home-button>button:hover{
+    background: transparent;
+    border:1px solid white;
+}
+
+
+/*------------title--------------------*/
+
+.title{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.79);
+    padding:30px;
+    line-height: 3;
+}
+.title label{
+    color: rgb(70, 0, 144);
+}
+.title div{
+    position: absolute;
+    left: 45%;
+    width:120px;
+    height: 5px;
+    background-color: rgb(75, 9, 138);
+
+}
+/*-----categories-----------*/
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding:20px 10%;
+    background-color: rgba(0, 0, 0, 0.79);
+    flex-flow: row wrap;
+}
+.categories>div{
+    flex: 1;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(33, 12, 52);
+    border-radius: 20px;
+    border: 1px solid rgb(64, 63, 61);
+    color: white;
+    padding-top: 20px;
+    line-height: 2;
+}
+.categories [class*="fa-"]{
+    color: rgb(85, 4, 162);
+    background-color: white;
+    border-radius: 50px;
+    padding:17px;
+    width:60px;
+    height: 60px;
+}
+
+/*------end-----------------*/
+/*collection itmes* , collection, */
+.collections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding:20px 10%;
+    background-color: rgb(22, 2, 22);
+    flex-flow: row wrap;
+}
+
+.collections>div{
+    flex: 1;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(22, 2, 22);
+    border-radius: 20px;
+    border: 1px solid rgb(74, 72, 69);
+    color:white;
+    padding-top: 20px;
+    line-height: 2;
+    height: fit-content;
+    line-height: 3;
+    text-align: left;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 20px;
+  
+}
+.collections>div>h2{
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+.collections>div>img{
+    width:100%;
+    margin-top: -20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.collections>div>hr,.card-text-container>hr{
+    margin: 20px;
+    opacity: 0.2;
+}
+.collections>div>table{
+    width: 100%;
+    line-height: 1.6;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.collections>div>button{
+    position: absolute;
+    width: 80%;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    padding:15px;
+    background-color: rgb(61, 8, 110);
+    border-radius: 50px;
+    left: 10%;
+    bottom:-23px;
+}
+.collections>div>button:hover{
+    background-color: rgb(98, 0, 190);
+}
+.collections>div>button::after{
+    content: "";
+    position: absolute;
+    width:80%;
+    height: 3px;
+    bottom: 0;
+    left: 23px;
+    background-color: white;
+}
+
+/*collections end*/
+
+
+/*start*/
+/*createNTF*/
+.createNTF{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding:10px 15px;
+    background-color: white ;
+    border-radius: 50px;
+}
+.createNTF>button::after{
+    content: "";
+    position: absolute;
+    width:80%;
+    height: 3px;
+    bottom: 0;
+    left: 23px;
+    background-color: white;
+}
+
+.createNTF{
+    position: relative;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+    width:80%;
+    margin-left: 9%;
+}
+
+.createNTF>button{
+    position: absolute;
+    width: 80%;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    padding:15px;
+    background-color: rgb(61, 8, 110);
+    border-radius: 50px;
+    left: 10%;
+    bottom:-23px;
+}
+.createNTF>button{
+    width:200px;
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+}
+.createNTF>button:hover{
+    background-color: rgb(98, 0, 190);
+}
+.createNTF>button{
+    width:200px;
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+}
+.createNTF>h1::before{
+    content: "";
+    position: absolute;
+    width:100px;
+    height: 3px;
+    top: -15px;
+    background-color: white;
+}
+
+/*start*/
+/*--------------create--,create description---------*/
+
+.categories>div,.item-card-container>.card{
+    flex: 1;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(30, 2, 33);
+    border-radius: 20px;
+    border: 1px solid rgb(89, 81, 89) ;
+    color: white;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+/*create description*/
+.create-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding:20px 10%;
+    flex-flow: row wrap;
+}
+.create-description>div{
+    flex: 1;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(30, 2, 33);
+    border-radius: 20px;
+    border: 1px solid rgb(89, 81, 89) ;
+    color: white;
+    padding-top: 20px;
+    line-height: 2;
+}
+.create-description [class*="fa-"]{
+    color:rgb(128, 25, 255) ;
+    background-color:white;
+    border-radius: 50px;
+    padding:17px;
+    width:60px;
+    height: 60px;
+}
+.create{
+    background: linear-gradient( 45deg, rgb(128, 25, 255), rgb(221, 10, 240));
+    padding:50px  0px;
+    margin-top: 15%;
+}
+.create-description{
+    background-color: transparent;
+}
+
+.create-description>div>p{
+    letter-spacing: 1px;
+}
+.create-description section{
+    display: block;
+    position: relative;
+    top:-100px;
+    left:5px;
+    color: white;
+}
+.create-description section::after{
+    content: "";
+    position: absolute;
+    height: 230px;
+    left: 2px;
+    top: 20px;
+    width: 2px;
+    background-color:white;
+    opacity: 0.1;
+}
+
+.create-description>div{
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    height: fit-content;
+}
+
+.create-description [class*="fa-"]{
+    color: rgb(85, 4, 162);
+    background-color: white;
+    border-radius: 50px;
+    padding:17px;
+    width:60px;
+    height: 60px;
+}
+.createNTF>h1::before,.market-items>h1::before{
+    content: "";
+    position: absolute;
+    width:100px;
+    height: 3px;
+    top: -15px;
+    background-color:white;
+}
+.create-description>div{
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    height: fit-content;
+}
+.item-
+/*--------end-----------------*/
+
+
+/*----items card------market-items-----item-card-container---card--*/
+
+.card{
+    height: 150px;
+    background-color: rgb(33, 12, 52);
+    border-radius: 20px;
+    border: 1px solid rgb(64, 63, 61);
+    color: white;
+    padding-top: 20px;
+    line-height: 2;
+    width: fit-content;
+   
+}
+.item-cards{
+    padding:8% 40px;
+}
+
+.market-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 15px;
+    border-radius: 50px;
+
+    background-color:rgba(0, 0, 0, 0.79);
+    position: relative;
+    margin-top: 40px;
+}
+.market-navBar>ul>li{
+    display: inline-block;
+    padding:10px;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+}
+.market-items>h1{
+    color:white;
+}
+
+.market-navBar>ul>li>a{
+    text-decoration: none;
+    margin: 10px;
+}
+.market-navBar>ul>li>a{
+    color: white;
+    font-size: 1.3em;
+}
+.market-navBar>ul>li:hover{
+    background-color: rgb(115, 34, 190) ;
+}
+.navBar>ul>.active,.market-navBar>ul>.active,.market-navBar>ul>.active>a{
+    background-color: rgb(115, 34, 190);
+    color:white;
+}
+
+
+
+.market-items>h1>label{
+    color: rgb(115, 0, 132);
+}   
+.item-card-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding:20px 10%;
+    background-color: rgba(0, 0, 0, 0.79);
+    flex-flow: row wrap;
+    
+}
+.item-card-container{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 30px;
+    justify-content:space-around;
+}
+.item-card-container>.card{
+    flex: 1;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(33, 12, 52);
+    border-radius: 20px;
+    border: 1px solid rgb(64, 63, 61);
+    color: white;
+    padding-top: 20px;
+    line-height: 2;
+    
+}
+.item-card-container .card{
+    display: flex;
+    text-align: left;
+    position: relative;
+    height: fit-content;
+    align-items: center;
+    flex:1;
+    letter-spacing: 0.5px;
+    width:fit-content;
+    padding: 20px;
+    gap: 20px;
+}
+.item-card-container>.card>img{
+    height: 340px;
+    border-radius: 25px;
+}
+.item-card-container>.card>.card-text-container>table{
+    width:100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.card-text-container{
+    margin-left: 20px;
+}
+.card-text-container>hr{
+    margin: 20px;
+    opacity: 0.2;
+}
+.card-text-container>div{
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    gap:10px;
+    margin-top: 15px;
+}
+.card-text-container>div>img{
+    width:55px;
+    height:55px;
+    border-radius: 50px;
+}
+.card-text-container>h1{
+   width: 100%;
+}
+.card-text-container>h4{
+    text-decoration: underline;
+}
+
+/*footer*/
+footer{
+    background: linear-gradient( 45deg, rgb(128, 25, 255), rgb(221, 10, 240));
+    padding:50px  0px;
+    margin-top: 15%;
+ }
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 30px;
+    justify-content:space-around;
+}
+footer>h3>label{
+    color: rgb(115, 0, 132);
+}
+
+
+
+
+
+
+
+
+
+
+
